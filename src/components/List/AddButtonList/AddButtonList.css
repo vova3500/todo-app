@@ -1,0 +1,56 @@
+.todo__list-add {
+    opacity: 0.4;
+    transition: 0.4s
+}
+
+.todo__list-add:hover {
+    transition: 0.4s;
+    opacity: 1
+}
+
+.add-list__popup {
+    position: absolute;
+    box-sizing: border-box;
+    width: 200px;
+    height: 148px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 18px;
+}
+
+.button {
+    width: 100%
+}
+
+.add-list__popup-colors {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0px;
+}
+
+.add-list__popup-colors .bage {
+    cursor: pointer;
+}
+
+.add-list__popup-colors .bage svg {
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.add-list__popup-colors .bage .active {
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2px solid grey;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(20%, -20%);
+    cursor: pointer;
+}

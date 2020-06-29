@@ -1,0 +1,88 @@
+.tasks__form {
+    margin: 20px 0px;
+}
+
+.tasks__form-new {
+    transition: 0.4s;
+    opacity: 0.4;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tasks__form-new svg path {
+    stroke: black;
+}
+
+.tasks__form-new span {
+    color: black;
+    margin-left: 20px;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.15px;
+}
+
+.tasks__form-new:hover {
+    transition: 0.4s;
+    opacity: 1;
+}
+
+.tasks__form-block {
+    transition: 0.4s;
+}
+
+.tasks__form-block input {
+    transition: 0.4s;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #efefef;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 9px 15px;
+    font-family: Lato;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.15px;
+    color: #c7c7c7;
+}
+
+.tasks__form-block input:active {
+    transition: 0.4s;
+    border-color: #bdbdbd;
+}
+
+.block-buttons {
+    margin-top: 20px;
+}
+
+.block-buttons button {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 10px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.15px;
+
+    color: #FFFFFF;
+}
+
+.block-buttons :first-child {
+    background: #4dd599;
+    margin-right: 10px;
+}
+
+.block-buttons :last-child {
+    background: #F4F6F8;
+    color: #9C9C9C;
+}
+
+.block-buttons :first-child:disabled {
+    background: #c7c7c7;
+
+}
